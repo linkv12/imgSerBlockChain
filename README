@@ -2,12 +2,21 @@
 # Kelas: Topsus ICM-3
 # NIM  : 1301174473
 
+# 15-05-2020
 
 # Deskripsi :
     Program ini dapat menyimpan file, kedalam sebuah blockchain, dapat menerima semua data, menerima semua jenis ekstensi.
     Prtama data harus ditambah menggunakan menu , add_data untuk memasukkan data kedalam tabel data_pool
     Kedua harus dilakukan mine data, menggunakan menu mine data
     Ketiga data dapat di unload dari blockchain menggunakan menu ke-4, unload data, akan muncul dialog untuk menyimpan data.
+
+# Database
+    Database yang digunakan berupa mysql pada xampp
+    Program ini mengharapkan dapat mengakses database dengan ketentuan seperti dibawah ini
+        host="localhost"
+        user="root"
+        passwd=""
+        database='imgblockchain'
 
 # Requirement
     Program ini dibangun dengan menggunakan PyCharm di dalam sebuah venv python
