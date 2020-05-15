@@ -27,7 +27,6 @@ def askFileToUnload() :
         idx += 1
 
     fileName = fileName[:idx] + fileName[idx+1:]
-    print(fileName)
     mydb.close()
 
     sto = True
