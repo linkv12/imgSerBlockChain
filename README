@@ -1,0 +1,19 @@
+# Nama : M. Mahfi Nurandi Karsana
+# Kelas: Topsus ICM-3
+# NIM  : 1301174473
+
+
+# Deskripsi :
+    Program ini dapat menyimpan file, kedalam sebuah blockchain, dapat menerima semua data, menerima semua jenis ekstensi.
+    Prtama data harus ditambah menggunakan menu , add_data untuk memasukkan data kedalam tabel data_pool
+    Kedua harus dilakukan mine data, menggunakan menu mine data
+    Ketiga data dapat di unload dari blockchain menggunakan menu ke-4, unload data, akan muncul dialog untuk menyimpan data.
+
+# Requirement
+    Program ini dibangun dengan menggunakan PyCharm di dalam sebuah venv python
+    # Libraries
+    1. mysql-connector [pip install mysql-connector]
+    2. datetime
+    3. hashlib
+    4. tkinter
+    5. threading
